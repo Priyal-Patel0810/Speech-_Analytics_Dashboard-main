@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# Streamlit
+.streamlit/
+*.log
+
+# Docker
+*.tar
+*.img
+*.pid
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Environment / runtime
+.env
+*.pem
+
+# Ignore audio uploads if any
+*.mp3
+*.wav
+
+# Ignore compiled files and backups
+*.bak
+*.swp
